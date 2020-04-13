@@ -1,5 +1,5 @@
 .container {
-	max-width: 500px;
+	max-width: 500px !important;
 	margin: auto;
 	margin-top: 4%;
 	font-family: sans-serif;
@@ -143,4 +143,55 @@ img {
 	display: inline-block;
 	width: 20px;
 	float: right;
+}
+
+/* Text area */
+.msg-bottom {
+	position: relative;
+	height: 10%;
+	background-color: #007bff;
+}
+
+.input-group {
+	float: right;
+	margin-top: 13px;
+	margin-right: 20px;
+	outline: none !important;
+	border-radius: 20px;
+	width: 61% !important;
+	background-color: #fff;
+}
+
+.input-group .fa {
+	color: #007bff;
+	float: right;
+}
+
+.form-control {
+	border: none !important;
+	border-radius: 20px !important;
+}
+
+.input-group-text {
+	background: transparent !important;
+	border: none !important;
+	
+}
+
+.bottom-icons {
+	float: left;
+	margin-top: 17px;
+	width: 30% !important;
+	margin-left: 22px;
+}
+
+.bottom-icons .fa {
+	color: #fff;
+	padding: 5px;
+}
+
+.form-control:focus {
+	border-color: none !important;
+	box-shadow: none !important;
+	border-radius: 20px;
 }
