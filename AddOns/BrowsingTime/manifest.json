@@ -1,0 +1,22 @@
+{
+	"manifest_version": 2,
+	"name": "Browsing Time",
+	"version": "1.0",
+
+	"description": "Author: SyntaxByte. Shows browsing time of any (http) hostname.",
+
+	"background": {
+		"scripts": ["background.js"]
+	},
+
+	"permissions": [
+		"webNavigation",
+		"storage"
+	],
+
+	"browser_action": {
+		"default_title": "Browsing Time",
+		"default_popup": "view.html",
+		"default_icon": "icon.png"
+	}
+}
