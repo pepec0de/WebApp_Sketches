@@ -1,0 +1,17 @@
+{
+	"manifest_version": 2,
+	"name": "DDG Position",
+	"version": "1.0",
+
+	"description": "Author: SyntaxByte. Shows ddg position of your google search in your query page.",
+
+	"content_scripts": [{
+		"matches": ["*://*.google.com/search?*"],
+		"js": ["ddgposition.js"]
+	}],
+
+	"permissions": [
+		"*://*.duckduckgo.com/html/*",
+		"*://duckduckgo.com/html/*"
+	]
+}
